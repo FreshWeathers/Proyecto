@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quieres tunear tu coche? - Tuning de Coches</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Ruta actualizada -->
+    <link rel="stylesheet" href="css/tuning-styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Tuning Cars</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index_proyecto.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                        </li>
+                        <li><a href="nuestro_estilo.html">Nuestro Estilo</a></li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Tunea tu coche</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="contact-info" class="bg-light py-4">
+        <div class="container">
+            <h1 class="text-center">Contactanos</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="name">Nuestra página de contacto es el lugar donde puedes comunicarte con nuestro equipo de atención al cliente para resolver cualquier duda o pregunta que tengas.
+                     Encontrarás un formulario de contacto que puedes completar con tus comentarios o preguntas, así como nuestras redes sociales y medios de contacto.
+                    ¡Estamos listos para ayudarte en todo lo que necesites!</label>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Firulais 34, Monterrey, Nuevo Leon</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +55 8124564891</p>
+                    <p><i class="fas fa-envelope"></i> Correo Electrónico: contacto@nocturnatuning.com</p>
+                    <div id="map" style="height: 300px; width: 100%; background: url('../img/map-placeholder.jpg') no-repeat center/cover;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="main-footer" class="text-center py-3">
+        <p>&copy; 2024 Tuning de Coches. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min
